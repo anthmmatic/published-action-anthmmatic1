@@ -1,0 +1,9 @@
+name: 'Anthmmatic publised action'
+description: 'My composite action'
+
+runs:
+  using: "composite"
+  steps:
+    - name: Perform step
+      run: echo "action completed."
+      shell: bash
