@@ -1,6 +1,10 @@
 name: 'anthmmatic published test'
 description: 'My composite action'
 
+branding:
+  icon: 'award'
+  color: 'green'
+
 runs:
   using: "composite"
   steps:
